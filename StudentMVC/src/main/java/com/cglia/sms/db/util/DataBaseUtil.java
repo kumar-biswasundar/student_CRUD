@@ -15,7 +15,7 @@ public class DataBaseUtil {
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost:3306/cglia");
 		dataSource.setUsername("root");
-		dataSource.setPassword("Kumar@220502");
+		dataSource.setPassword("root");
 	}
 	public static Connection getConnection() throws SQLException {
 		Connection connection = dataSource.getConnection();
